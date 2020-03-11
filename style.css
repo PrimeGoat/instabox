@@ -1,0 +1,108 @@
+body {
+	background-color: #fafafa;
+	font-family: Arial;
+}
+
+.out {
+}
+
+.in {
+	width: 100%;
+}
+
+#outer {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+#bottom {
+	display: flex;
+	justify-content: space-evenly;
+	font-weight: bold;
+}
+
+#top {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#top1 {
+	flex-basis: auto;
+	align-self: center;
+	zoom: .9;
+}
+
+#top2 {
+	flex-basis: auto;
+	width: 50px;
+}
+
+#top3 {
+	flex-basis: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	zoom: 1.5;
+}
+
+#top4 {
+	flex-basis: auto;
+}
+
+#tr1 {
+	display: flex;
+	justify-content: flex-start;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+#tr2c {
+	padding-right: 30px;
+}
+
+#tr2 {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#tr3 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.tr1items {
+	padding-right: 20px;
+}
+
+#follow {
+	border: 1px solid #ddd;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#thedots {
+	position: relative; top: -0.4em;
+	font-size: 150%; 
+}
+
+#ig {
+	font-size: 150%;
+}
+
+a {
+	text-decoration: none;
+}
+
+#followedby {
+	font-size: 70%;
+	color: #9d9d9d;
+}
+
+.black {
+	color: black;
+}
